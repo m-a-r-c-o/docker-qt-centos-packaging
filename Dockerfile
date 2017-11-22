@@ -8,4 +8,3 @@ RUN yum install -y qt5-qtbase-devel qt5-qtwebkit-devel qt5-qtsvg-devel libmarkdo
 RUN useradd makerpm
 USER makerpm
 RUN rpmdev-setuptree
-
